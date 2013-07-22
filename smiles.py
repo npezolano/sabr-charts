@@ -56,6 +56,7 @@ def run_experiments():
   shock('p', 0.7, r'$\rho$', 'Shocking the correlation')
   shock('b', 0.1, r'$\beta$', 'Shocking the elasticity')
 
-  
+if __name__ == "__main__":
+  run_experiments()
   
   
