@@ -14,6 +14,7 @@ def generate_charts():
   plot.plot(f_values, [backbone(0.04, 1.0, f) for f in f_values], label=r'$\beta=1.0$')
   plot.legend()
   plot.savefig('backbone.png')
-    
-generate_charts()
+
+if __name__ == "__main__":
+  generate_charts()
 
